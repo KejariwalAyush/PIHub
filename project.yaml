@@ -1,0 +1,14 @@
+# name of author
+name: Ayush Kejariwal
+# college registeration number
+regdno: 1941012408
+# github username
+github: KejariwalAyush
+# set number (1/2/3)
+set: 3
+# problem statement number (1/2/3/4)
+question: 4
+# description of the project
+description: This project is an APP & web app & hosted in `https://pihub-375df.web.app/` made with flutter & firebase. A social media for Projects & Ideas where user can like comment or post projects & ideas. The apk is attached.
+# credits of project
+credits: pub.dev, images from unsplash
