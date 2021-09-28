@@ -4,7 +4,7 @@ PIHub is a social media platform build with flutter to connect programmers with 
 
 ## Web is Hosted at [https://pihub-375df.web.app/](https://pihub-375df.web.app/)
 
-## Download app apk [here](https://github.com/Gear-Up-Submissions/1941012408/releases/download/1.0.0/PIHub.apk)
+## Download app apk [here](https://github.com/Gear-Up-Submissions/1941012408/releases/download/1.0.0%2B1/PIHub.apk)
 
 ## Features
 
