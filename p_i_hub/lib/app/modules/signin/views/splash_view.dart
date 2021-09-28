@@ -14,6 +14,13 @@ class SplashView extends GetView<SplashController> {
       backgroundColor: kcSec,
       body: Center(
         child: [
+          Container(
+              decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(15), color: kcWhite),
+              height: 100,
+              width: 100,
+              child: Image.asset('assets/icon.png')),
+          20.squareBox,
           'PIHub'.text.xl4.make(),
           30.squareBox,
           'Find Projects & ideas in single place'.text.sm.make()

@@ -59,6 +59,7 @@ class SignupController extends GetxController {
         .set(userProfile.toMap())
         .then((value) {
       print('Data Uploaded');
+      PIHub.currentProfile = userProfile;
       Get.offAllNamed(Routes.HOME);
     });
   }

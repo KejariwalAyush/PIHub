@@ -15,10 +15,16 @@ class SigninView extends GetView<SigninController> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [
-            'PIHub'.text.xl4.make(),
-            // 30.squareBox,
-            'Find Projects & ideas in single place'.text.sm.make(),
-            // 30.squareBox,
+            Container(
+                decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(15), color: kcWhite),
+                height: 100,
+                width: 100,
+                child: Image.asset('assets/icon.png')),
+            [
+              'PIHub'.text.xl4.make(),
+              'Find Projects & ideas in single place'.text.sm.make(),
+            ].column(),
             Container(
                 width: context.width * 0.8,
                 height: 60,
